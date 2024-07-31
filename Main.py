@@ -69,7 +69,7 @@ years = sorted(f_races_results['year'].unique())
 start_year, end_year = st.sidebar.select_slider(
     "Select a range of years: ",
     options=years,
-    value=(years[0], years[-1]))
+    value=(years[-21], years[-1]))
 
 #filtrando a tabela fato pelos anos selecionados pelo usuario
 races_results_filtered = f_races_results[(f_races_results['year'] >= start_year) & 
