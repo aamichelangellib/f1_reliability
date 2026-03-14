@@ -8,7 +8,7 @@ st.set_page_config(page_title='F1 Reliability Dashboard',
                    layout='wide',
                    initial_sidebar_state='auto')
 
-st.logo('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/640px-F1.svg.png')
+st.logo('https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg')
 link = 'https://www.linkedin.com/in/andr%C3%A9s-michelangelli/'
 st.sidebar.markdown(f"Made by [Andrés A. Michelangelli]({link})")
 
