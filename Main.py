@@ -51,7 +51,7 @@ pattern = '|'.join(mechanical_issues) #definindo pattern e carater "|" para bota
 
 # ---- SIDEBAR ----
 #Carregando imagens do logo da F1
-st.logo('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/640px-F1.svg.png')
+st.logo('https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg')
 #st.sidebar.image('https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg') #logo tradicional carregado como imagem 
 
 link = 'https://www.linkedin.com/in/andr%C3%A9s-michelangelli/'
